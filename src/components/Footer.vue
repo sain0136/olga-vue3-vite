@@ -1,9 +1,9 @@
 <template>
   <!-- Footer-->
-  <footer class="py-4 bg-dark">
+  <footer class="py-4 mt-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">
-        Copyright &copy; Your Website 2021
+        Copyright &copy; Davinci's Developers 2021
       </p>
     </div>
   </footer>
@@ -19,7 +19,7 @@ export default defineComponent({
 
 <style scoped>
 footer.py-4 {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
 }
